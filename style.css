@@ -270,3 +270,12 @@ h2{
   .arch{top:58px;height:226px}
   .date-number{margin-top:58px}
 }
+
+.hero-name{
+font-family:'Alex Brush','Great Vibes',cursive!important;
+font-weight:400;
+font-size:clamp(104px,24vw,170px)!important;
+color:#4b5f47;
+letter-spacing:.5px;
+text-shadow:0 2px 10px rgba(255,255,255,.75);
+}
