@@ -60,45 +60,6 @@ body{
   justify-content:flex-end;
   padding-bottom:70px;
 }
-.cross-mark,
-.small-cross-mark,
-.date-cross{
-  position:relative;
-  width:54px;
-  height:74px;
-  margin-bottom:28px;
-  filter:drop-shadow(0 0 18px rgba(239,194,84,.32));
-}
-.cross-mark::before,
-.cross-mark::after,
-.small-cross-mark::before,
-.small-cross-mark::after,
-.date-cross::before,
-.date-cross::after{
-  content:"";
-  position:absolute;
-  left:50%;
-  top:50%;
-  background:var(--yellow);
-  border-radius:999px;
-  transform:translate(-50%,-50%);
-}
-.cross-mark::before{width:5px;height:74px}
-.cross-mark::after{width:42px;height:5px;top:38%}
-.small-cross-mark{width:42px;height:58px;margin-bottom:34px}
-.small-cross-mark::before{width:4px;height:58px}
-.small-cross-mark::after{width:34px;height:4px;top:38%}
-.date-cross{
-  width:42px;
-  height:58px;
-  margin:0;
-  position:absolute;
-  top:118px;
-  z-index:1;
-  opacity:.95;
-}
-.date-cross::before{width:4px;height:58px}
-.date-cross::after{width:34px;height:4px;top:38%}
 .overline,.section-title{
   margin:0;
   color:var(--deep-green);
@@ -181,9 +142,7 @@ h2{
   min-height:72px;
   font-size:clamp(18px,4.2vw,23px);
 }
-.intro-card{
-  gap:4px;
-}
+.intro-card{gap:4px}
 .intro-text{
   margin:18px 0 0;
   color:#2f362d;
@@ -309,6 +268,5 @@ h2{
   .family-grid{gap:9px}
   .divider{height:290px}
   .arch{top:58px;height:226px}
-  .date-cross{top:106px}
   .date-number{margin-top:58px}
 }
